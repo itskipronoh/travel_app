@@ -18,7 +18,7 @@ export default function GetStarted({navigation}: {navigation: NavigationProp<any
       <Pressable style={({pressed}) => [
               styles.button,
               pressed && {opacity: 1.8, backgroundColor:'#8DE8C7'},
-      ]} onPress={() => router.push('/(home)')}>
+      ]} onPress={() => router.push('(home)/HomeScreen')}>
      
         <Text style={styles.textbutton}> GET STARTED </Text> 
       </Pressable>
